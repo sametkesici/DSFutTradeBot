@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+topic:
+  name: t.dsfut.player
+
+spring:
+  kafka:
+    consumer:
+      group-id: "default"
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+          auth: 'true'
+    host: smtp.gmail.com
+    username: xxxxx
+    password: xxxxx
+    port: '587'
